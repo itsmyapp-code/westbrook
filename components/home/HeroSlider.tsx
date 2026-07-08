@@ -48,7 +48,7 @@ export default function HeroSlider({ slides }: HeroSliderProps) {
         <div 
           className="absolute inset-0 bg-cover bg-center transition-all duration-1000 scale-105 opacity-80"
           style={{
-            backgroundImage: `url(${currentSlide?.coverImage || currentSlide?.bgImage || '/images/hero-laundry.jpg'})`,
+            backgroundImage: `url("${encodeURI(currentSlide?.coverImage || currentSlide?.bgImage || '/images/hero-laundry.jpg')}")`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/65 to-transparent" />
