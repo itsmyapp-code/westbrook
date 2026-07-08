@@ -19,10 +19,10 @@ export default async function Page({ params }: { params: { ost: string[] } }) {
             To activate the client-side Markdown CMS (£0/month database or hosting costs), please configure your GitHub repository credentials in <code className="rounded bg-slate-800 px-2 py-1 text-sky-300 font-mono">.env.local</code>:
           </p>
           <div className="mb-6 overflow-x-auto rounded bg-slate-950 p-4 text-left font-mono text-xs text-slate-400 border border-slate-800/80">
-            <div>OST_REPO_SLUG=westbrook-laundry-website</div>
-            <div>OST_REPO_OWNER=your-github-username</div>
-            <div>OUTSTATIC_GITHUB_CLIENT_ID=...</div>
-            <div>OUTSTATIC_GITHUB_SECRET=...</div>
+            <div>OST_REPO_SLUG=westbrook</div>
+            <div>OST_REPO_OWNER=itsmyapp-code</div>
+            <div>OST_GITHUB_ID=...</div>
+            <div>OST_GITHUB_SECRET=...</div>
             <div>JWT_SECRET=...</div>
           </div>
           <a

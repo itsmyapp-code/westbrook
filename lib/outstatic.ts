@@ -284,6 +284,7 @@ export interface HeroSlideDocument extends Partial<OstDocument> {
   description: string;
   ctaText: string;
   bgImage: string;
+  coverImage?: string;
 }
 
 export interface WorkflowDocument extends Partial<OstDocument> {
@@ -445,6 +446,7 @@ export async function getHeroSlides(): Promise<HeroSlideDocument[]> {
         'description',
         'ctaText',
         'bgImage',
+        'coverImage',
       ]);
       if (docs && docs.length > 0) {
         return docs as unknown as HeroSlideDocument[];
