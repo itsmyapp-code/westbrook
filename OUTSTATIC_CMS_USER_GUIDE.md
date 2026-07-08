@@ -1,13 +1,28 @@
-# 🌟 The Simple Guide to Updating Your Website
+# 🌟 The Simple Guide to Updating Your Website (With Master Map Table)
 
-This guide explains in **simple English** how to edit text, prices, and photos on your website using your Outstatic dashboard. You do **not** need any coding knowledge to use this!
+This guide explains in **simple English** how to edit text, prices, and photos on your website (`https://westbrook.vercel.app`) using your Outstatic dashboard (`/outstatic`). You do **not** need any coding knowledge to use this!
+
+---
+
+## 🗺️ Quick-Reference Visual Map: Where It Is on the Website vs. Outstatic
+
+Here is the master quick-reference table showing exactly where every section lives:
+
+| Outstatic Collection (`/outstatic`) | Exact Location on the Live Website (`westbrook.vercel.app`) | What It Controls & Fields to Edit |
+| :--- | :--- | :--- |
+| **`Heroslider`** | **Homepage (`/`) — Top Section 1** *(Right below navigation bar)* | • 3 rotating full-screen banners (`slide-1`, `slide-2`, `slide-3`)<br>• Edit: `Title`, `Description`, `ctaText` (Custom Fields), and **`Cover Image`** (sidebar). |
+| **`Services`** | **Homepage (`/`) — Section 2** *(Right below Hero Slider)* | • 3 main service intro cards with blue icons (`Commercial`, `Dry Cleaning`, `Launderette`)<br>• Edit: `Title`, `Description`, `serviceCategory`, and **`Cover Image`**. |
+| **`Workflows`** | **Homepage (`/`) — Section 3** *(Middle of Homepage)* | • 4-Step numbered process (`1. Drop Off` -> `4. Delivery`)<br>• Edit: `Title`, `stepNumber` (`1` through `4`), and `Description`. |
+| **`Testimonials`** | **Homepage (`/`) — Section 4** *(Near bottom, above dark blue CTA banner)* | • Sliding 5-Star Customer Reviews Carousel (`"Trusted by Leading Devon Hospitality..."`)<br>• Edit: `Title` (headline), `Author -> Name` (customer & business), `rating` (`1`-`5`), and **Main Body Editor** (review quote). |
+| **`Prices`** | **Across 3 Subpages (`/launderette`, `/dry-cleaning`, `/commercial`)** | • Itemized price cards and tariff tables (`18kg Washer £9.00`, `2-Piece Suit £16.50`)<br>• Edit: `Title` (garment/cycle name), `priceValue` (`£16.50`), and **`serviceCategory`** *(Must be `launderette`, `dry-cleaning`, or `commercial` to send to the right page!)*. |
+| **`Pages`** | **Header Banners & Copy across 5 Subpages (`/about`, `/commercial`, `/dry-cleaning`, `/launderette`, `/contact`)** | • Page header banners (`Cover Image`) and full descriptive text paragraphs<br>• Edit: `Title`, **`Cover Image`** (header photo), and **Main Body Editor** (page copy & headings). |
 
 ---
 
 ## 🚀 How to Log In & Save
 1. Go to your dashboard URL: **`https://westbrook.vercel.app/outstatic`**
 2. Click **Log in with GitHub**.
-3. In the left menu, click any section (like **Prices** or **Heroslider**).
+3. In the left menu, click any collection (like **Prices** or **Heroslider**).
 4. Make your changes and click the black **Save** button (top right).
 
 > **The 30-Second Rule:**
@@ -24,9 +39,7 @@ No matter what you are editing (a slide, a service, or a page), changing a pictu
 
 ---
 
-## 🗺️ Where to Click to Change Each Part of Your Website
-
-Here is a simple cheat sheet telling you exactly which left-menu button to click based on what you want to change on the website:
+## 📋 Step-by-Step Instructions for Each Section
 
 ### 1. The Large Top Banner Photos on the Homepage (`/`)
 * **Click on:** `Heroslider`
