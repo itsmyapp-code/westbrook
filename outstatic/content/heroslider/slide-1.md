@@ -1,7 +1,9 @@
 ---
 title: 'Pristine Garment & Commercial Linen Care'
 status: 'published'
-author: { name: 'Westbrook Admin', picture: 'https://avatars.githubusercontent.com/u/0?v=4' }
+author:
+  name: 'Westbrook Admin'
+  picture: 'https://avatars.githubusercontent.com/u/0?v=4'
 slug: 'slide-1'
 description: 'South Hams premier agency for bespoke hotel linen management, delicate dry cleaning, and rapid self-service turnaround.'
 ctaText: 'Explore Commercial B2B'
